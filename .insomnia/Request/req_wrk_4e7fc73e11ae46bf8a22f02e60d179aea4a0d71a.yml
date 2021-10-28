@@ -1,0 +1,33 @@
+_id: req_wrk_4e7fc73e11ae46bf8a22f02e60d179aea4a0d71a
+type: Request
+parentId: wrk_4e7fc73e11ae46bf8a22f02e60d179ae
+modified: 1635435259394
+created: 1635435259394
+url: "{{ base_url }}/employees"
+name: Search employees
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: lastName
+    disabled: true
+    value: string
+  - name: employeeNo
+    disabled: true
+    value: string
+headers:
+  - name: Content-Type
+    disabled: false
+    value: string
+  - name: api-key
+    disabled: false
+    value: string
+authentication: {}
+metaSortKey: -1635435259394
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

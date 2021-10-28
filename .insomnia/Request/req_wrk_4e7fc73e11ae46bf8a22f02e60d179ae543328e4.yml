@@ -1,0 +1,27 @@
+_id: req_wrk_4e7fc73e11ae46bf8a22f02e60d179ae543328e4
+type: Request
+parentId: wrk_4e7fc73e11ae46bf8a22f02e60d179ae
+modified: 1635435259384
+created: 1635435259384
+url: "{{ base_url }}/employees/{{ employeeNo }}"
+name: Delete customer
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: string
+  - name: api-key
+    disabled: false
+    value: string
+authentication: {}
+metaSortKey: -1635435259384
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
