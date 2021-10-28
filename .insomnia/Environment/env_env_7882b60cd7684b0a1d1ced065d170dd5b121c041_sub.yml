@@ -1,0 +1,20 @@
+_id: env_env_7882b60cd7684b0a1d1ced065d170dd5b121c041_sub
+type: Environment
+parentId: env_7882b60cd7684b0a1d1ced065d170dd5b121c041
+modified: 1635194147161
+created: 1635193741823
+name: OpenAPI env
+data:
+  scheme: http
+  base_path: /employees-api/v1
+  host: api-gw
+  employeeNo: GID120935
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+    - employeeNo
+color: null
+isPrivate: false
+metaSortKey: 1635193741823

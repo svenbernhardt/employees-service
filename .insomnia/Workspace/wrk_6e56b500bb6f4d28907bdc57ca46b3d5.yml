@@ -1,0 +1,8 @@
+_id: wrk_6e56b500bb6f4d28907bdc57ca46b3d5
+type: Workspace
+parentId: null
+modified: 1635193749309
+created: 1635193749309
+name: Employees API 1.0.0
+description: The Employees API provides access to an employees data.
+scope: design

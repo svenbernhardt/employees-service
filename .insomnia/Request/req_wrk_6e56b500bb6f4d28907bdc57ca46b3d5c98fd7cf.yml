@@ -1,0 +1,37 @@
+_id: req_wrk_6e56b500bb6f4d28907bdc57ca46b3d5c98fd7cf
+type: Request
+parentId: wrk_6e56b500bb6f4d28907bdc57ca46b3d5
+modified: 1635193741811
+created: 1635193741811
+url: "{{ base_url }}/employees"
+name: Create employee
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "employeeNo": "GID120935",
+      "firstName": "Sven",
+      "lastName": "Bernhardt",
+      "jobTitle": "Chief Architect",
+      "email": "svenbernhardt@sttc.com",
+      "gender": "male",
+      "phone": "+(49) 2261 6001 0"
+    }
+parameters: []
+headers:
+  - name: api-key
+    disabled: false
+    value: string
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1635193741811
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

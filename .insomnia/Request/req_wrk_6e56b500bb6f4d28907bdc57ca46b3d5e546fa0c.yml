@@ -1,0 +1,39 @@
+_id: req_wrk_6e56b500bb6f4d28907bdc57ca46b3d5e546fa0c
+type: Request
+parentId: wrk_6e56b500bb6f4d28907bdc57ca46b3d5
+modified: 1635278042673
+created: 1635193741807
+url: "{{ base_url }}/employees/{{ employeeNo }}"
+name: Update customer
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "employeeNo": "GID120935",
+      "firstName": "Sven",
+      "lastName": "Bernhardt",
+      "jobTitle": "Chief Architect",
+      "email": "svenbernhardt@sttc.com",
+      "gender": "male",
+      "phone": "+(49) 2261 6001 0"
+    }
+parameters: []
+headers:
+  - name: api-key
+    disabled: false
+    value: string
+    id: pair_34d8c1181ec04e52a352203fcc993642
+  - name: Content-Type
+    value: application/json
+    id: pair_3f387921d934422a8697e9552e086405
+authentication: {}
+metaSortKey: -1635193741807
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
