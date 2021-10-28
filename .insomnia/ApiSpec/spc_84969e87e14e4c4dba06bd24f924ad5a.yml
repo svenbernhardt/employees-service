@@ -1,7 +1,7 @@
 _id: spc_84969e87e14e4c4dba06bd24f924ad5a
 type: ApiSpec
 parentId: wrk_4e7fc73e11ae46bf8a22f02e60d179ae
-modified: 1635435261325
+modified: 1635436879593
 created: 1635435261297
 fileName: Employees API 1.0.0
 contents: |
@@ -48,7 +48,7 @@ contents: |
             schema:
               type: string
         responses:
-          200:
+          '200':
             description: ''
             headers: { }
             content:
@@ -66,7 +66,6 @@ contents: |
                     email: svenbernhardt@sttc.com
                     gender: male
                     phone: +(49) 2261 6001 0
-        deprecated: false
       post:
         summary: Create employee
         description: Create a new employee record.
@@ -95,10 +94,10 @@ contents: |
                 phone: +(49) 2261 6001 0
           required: true
         responses:
-          201:
+          '201':
             description: ''
             headers: { }
-            content:
+            content: 
               application/json:
                 schema:
                   $ref: '#/components/schemas/Employee'
@@ -110,7 +109,6 @@ contents: |
                   email: svenbernhardt@sttc.com
                   gender: male
                   phone: +(49) 2261 6001 0
-        deprecated: false
     /employees/{employeeNo}:
       put:
         summary: Update customer
@@ -123,8 +121,7 @@ contents: |
             required: true
             schema:
               type: string
-            example:
-              value: 'GID120935'
+            example: 'GID120935'
           - name: api-key
             in: header
             description: ''
@@ -148,7 +145,7 @@ contents: |
                 phone: +(49) 2261 6001 0
           required: true
         responses:
-          200:
+          '200':
             description: ''
             headers: { }
             content:
@@ -163,7 +160,6 @@ contents: |
                   email: svenbernhardt@sttc.com
                   gender: male
                   phone: +(49) 2261 6001 0
-        deprecated: false
       delete:
         summary: Delete customer
         description: 'Delete an existing customer'
@@ -191,7 +187,7 @@ contents: |
             schema:
               type: string
         responses:
-          204:
+          '204':
             description: ''
             headers: { }
         deprecated: false
@@ -204,7 +200,6 @@ contents: |
           - lastName
           - jobTitle
           - email
-          - address
         type: object
         properties:
           employeeNo:
